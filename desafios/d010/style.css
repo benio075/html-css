@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf)
+}
+
+header {
+    height: 180px;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, #39d67f, #003A18);
+}
+
+header > h1 {
+    text-shadow: 1px 1px 6px black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a9e8c4;
+    padding: 7px;
+    margin: 3px;
+    transition-duration: .5s;
+}
+
+header > a:hover {
+    background-color: #155c34;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+header > p {
+    max-width: 25em;
+    color: white;
+    margin: 40px auto;
+    text-shadow: 1px 1px 6px black;
+    text-align: center;
+}
+
+main {
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 0px black;
+
+
+    max-width: 800px;
+    margin: auto;
+}
+
+main > h1#titulo {
+    margin-top: 0;
+    font-family: Idroid;
+    color: #013a00;
+}
+
+main > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main > p {
+    text-align: justify;
+    font-size: .95em;
+}
+
+main > div.foto {
+    text-align: center;
+    width: 100%;
+}
+
+main > div.foto-bug {
+    margin: auto;
+    width: 40%;
+} 
+
+main > div.foto-dandr {
+    margin: auto;
+    width: 85%;
+    height: 50%;
+} 
+
+div.menor {
+    text-align: center;
+}
+
+div > picture.foto-dandr > img {
+    width: 85%;
+}
+
+main > div.video {
+    text-align: center;
+    background-color: #013a00;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+body > main > p > span.destaque {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004a1e;
+}
+
+body > main > p > span.destaque > a {
+    font-weight: bold;
+    font-size: .95em;
+    text-decoration: none;
+    padding: 1px;
+    background-image: linear-gradient(to right, #00a5457d, #00a54500);
+    color: #004a1e;
+}
+
+body > main > aside > p > span.destaque {
+    font-weight: bold;
+    font-size: .95em;
+    text-decoration: none;
+    padding: 1px;
+    color: #004a1e;
+}
+
+body > main > aside > p > span.destaque > a {
+    font-weight: bold;
+    font-size: .95em;
+    text-decoration: none;
+    padding: 1px;
+    background-image: linear-gradient(to right, #00a5457d, #00a54500);
+    color: #004a1e;
+}
+
+body > main > aside > p > span.destaque > a::after {
+    content: '\00A0\1F517';
+}
+
+main > p > span.destaque > a::after {
+    content: '\00A0\1F517';
+}
+
+main > p > span.destaque > a:hover {
+    text-decoration: underline;
+    color: #009f42;;
+    
+}
+
+div.video > iframe {
+    margin: -10px;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    width: 89%;
+    height: 90%;
+}
+
+h2.subtitulo {
+    font-family: idroid;
+    font-size: 25px;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, rgba(0, 185, 0, 0.275), transparent);
+    color: #006a2c;
+}
+
+aside {
+    background-color: #a9e8c4;
+    padding-bottom: 8px;
+    margin: -2px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #003A18;
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+aside > p {
+    margin: 15px 15px;
+    text-indent: 25px;
+}
+
+aside > ul {
+    padding: 16px;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+div.lista {
+    padding: 10px 5px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003A18;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+footer > a {
+    color: #c4ffc3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: #a9e8c4;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 237, 195);
+    margin: 0;
+}
