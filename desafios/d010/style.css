@@ -6,12 +6,13 @@
 }
 
 header {
-    height: 180px;
+    height: 230px;
     padding-top: 20px;
     background-image: linear-gradient(to bottom, #39d67f, #003A18);
 }
 
 header > h1 {
+    max-height: 39px;
     text-shadow: 1px 1px 6px black;
     color: white;
     margin: 0;
@@ -22,6 +23,8 @@ header > h1 {
 header > a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    display: inline-flex;
+    justify-content: flex-end;
     text-decoration: none;
     color: #a9e8c4;
     padding: 7px;
@@ -38,7 +41,7 @@ header > a:hover {
 header > p {
     max-width: 25em;
     color: white;
-    margin: 40px auto;
+    margin: 60px auto 50px auto;
     text-shadow: 1px 1px 6px black;
     text-align: center;
 }
@@ -50,6 +53,7 @@ main {
     box-shadow: 0px 0px 8px 0px black;
 
 
+    min-width: 506px;
     max-width: 800px;
     margin: auto;
 }
